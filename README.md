@@ -1,4 +1,6 @@
-This project utilizes integration with google collab and drive. Here's a basic outline of how we plan to achieve volleyball serve classification:
+This project utilizes integration with google collab and drive. Here you can find the relevant drive files: https://drive.google.com/drive/folders/1ScFt0AOFuzxsFSDifwvLVahLI6p4xtHA?usp=sharing. 
+
+Here's the outline of our plan for volleyball serve classification:
 
 1. Data Collection:
 Gather a dataset of volleyball serve videos. This dataset should include examples of different types of serves we want to classify.
