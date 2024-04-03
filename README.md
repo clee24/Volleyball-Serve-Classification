@@ -3,7 +3,8 @@ This project utilizes integration with google collab and drive. Here you can fin
 <br />
 <br />
 **Project flow**
-
+<br />
+<br />
 We gather a set of two different types of volleyball serves: topspin and float as video clips
 
 We format them for editing, standardizing the timing to ~1 second and isolating the player's serve from the penultimate jump
