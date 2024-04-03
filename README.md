@@ -1,34 +1,17 @@
 This project utilizes integration with google collab and drive. Here you can find the relevant drive files: https://drive.google.com/drive/folders/1ScFt0AOFuzxsFSDifwvLVahLI6p4xtHA?usp=sharing. 
 
-Here's the outline of our plan for volleyball serve classification:
+Steps: 
 
-1. Data Collection:
-Gather a dataset of volleyball serve videos. This dataset should include examples of different types of serves we want to classify.
+We gather a set of two different types of volleyball serves: topspin and float as video clips
 
-3. Preprocessing:
-Extract frames from the videos.
-Use AlphaPose to detect human poses in each frame.
+We format them for editing, standardizing the timing to ~1 second and isolating the player's serve from the penultimate jump
 
+We use AlphaPose to extract keypoints (e.g. shoulders, hips, elbows, wrists)
 
-//We are here!
+We use these keypoints to calculate a backswing angle in each frame for a player's serve. 
 
+We process the serves into two empty lists "backswing_angles" and "labels" that contain the sequence of backswing angles and a label if that serve is a topspin or float serve. 
 
-4. Feature Extraction:
-Use the detected poses to extract relevant features from the json. This could be angles between joints, velocities, etc.
+We then train a Random Forest Algorithm to classify serves, which it correctly does for a serve not included in the dataset (float5)
 
-6. Training:
-Train a machine learning model on these extracted features to classify different types of serves.
-You could use a variety of algorithms such as Support Vector Machines (SVM), Random Forests, or Neural Networks. We might use libraries like scikit-learn for simpler models or TensorFlow/PyTorch for neural networks.
-
-8. Testing and Validation:
-Split your dataset into training and testing sets.
-Test the trained model on the testing set to evaluate its performance.
-Adjust parameters and retrain as necessary.
-
-10. Integration with AlphaPose:
-Once your model is trained and validated, you can integrate it with AlphaPose.
-Run AlphaPose on new volleyball serve videos to detect poses.
-Use the output poses as input to your trained model to classify the type of serve.
-
-
-
+***Currently working on expanding the dataset for a more robust algorithm. 
