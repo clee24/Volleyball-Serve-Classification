@@ -1,6 +1,6 @@
 This project utilizes integration with google collab and drive. Here you can find the relevant drive files: https://drive.google.com/drive/folders/1ScFt0AOFuzxsFSDifwvLVahLI6p4xtHA?usp=sharing. 
 
-Steps: 
+Here is the project flow: 
 
 We gather a set of two different types of volleyball serves: topspin and float as video clips
 
