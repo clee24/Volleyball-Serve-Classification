@@ -16,3 +16,6 @@ This project utilizes integration with google collab and drive. Here you can fin
 5. We process the serves into two empty lists “backswing_angles” and “labels” that contain sequences of backswing angles and labels for serve type, respectively.
 
 6. We then train a Random Forest Algorithm to classify serves, which it correctly does for a test serve not included in the dataset (float1)
+
+
+*Made a quick WordPress website for the program: https://wp.nyu.edu/volleyball_serve_classification/
