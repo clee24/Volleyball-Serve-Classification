@@ -18,4 +18,4 @@ This project utilizes integration with google collab and drive. Here you can fin
 6. We then train a Random Forest Algorithm to classify serves, which it correctly does for a test serve not included in the dataset (float1)
 <br />
 <br />
-**Update 4/5 Made a quick WordPress website for the program: https://wp.nyu.edu/volleyball_serve_classification/
+**Update 4/5 made a quick WordPress website for the program: https://wp.nyu.edu/volleyball_serve_classification/
