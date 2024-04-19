@@ -1,4 +1,4 @@
-Volleyball serve classification program using Python, AlphaPose, and a scikit-learn Random Forest algorithm. Also listed at https://wp.nyu.edu/volleyball_serve_classification/
+Also listed at https://wp.nyu.edu/volleyball_serve_classification/
 
 This project implements a novel solution for classifying volleyball serves using computer
 vision and machine learning techniques. Python, AlphaPose, and a scikit-learn Random
