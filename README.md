@@ -1,5 +1,3 @@
-Also listed at https://wp.nyu.edu/volleyball_serve_classification/
-
 This project implements a novel solution for classifying volleyball serves using computer
 vision and machine learning techniques. Python, AlphaPose, and a scikit-learn Random
 Forest Algorithm are utilized to process and categorize short clips of volleyball serves as
@@ -12,3 +10,4 @@ then train a Random Forest Algorithm to classify serves based on this input. Our
 successfully processes and classifies the test serve given (float1) which is not included in the
 training dataset.
 
+Also listed at https://wp.nyu.edu/volleyball_serve_classification/
