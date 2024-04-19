@@ -1,7 +1,7 @@
 This project implements a novel solution for classifying volleyball serves using computer
 vision and machine learning techniques. Python, AlphaPose, and a scikit-learn Random
 Forest Algorithm are utilized to process and categorize short clips of volleyball serves as
-either float or topspin serves. This project was written in an Google Colab and Drive environment.
+either float or topspin serves. This project was written in a Google Colab and Drive environment.
 Clips of serves are gathered, standardized, and cleaned. They are then processed through
 AlphaPose to extract keypoints (e.g. shoulders, hips, elbows, wrists), which we use to
 calculate a backswing angle in each frame for each a player’s serve. We process the serves
