@@ -9,5 +9,3 @@ into two empty lists that contain sequences of backswing angles and labels for t
 then train a Random Forest Algorithm to classify serves based on this input. Our program
 successfully processes and classifies the test serve given (float1) which is not included in the
 training dataset.
-
-Also listed at https://wp.nyu.edu/volleyball_serve_classification/
